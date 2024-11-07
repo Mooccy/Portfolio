@@ -1,0 +1,128 @@
+html, body {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Nunito", sans-serif;
+}
+.nunitoFont {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.github {
+    background-image: url("imagemPortfolio.png");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 1000px;
+    border-width: 0;
+    position: relative;
+    left: 37%;
+    transition: transforme 0.5s ease;
+}
+.github:hover {
+    transform: scale(105%);
+    cursor: pointer;
+    filter: brightness(150%) saturate(70%);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7d60e7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7d60e7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+.ola {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000;
+    margin-bottom: 0;
+}
+.perfil {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #7d60e7;
+    border-width: 7px;
+    box-shadow: 10px 10px 5px #000000;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 40%;
+}
+.nomeTitulo {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.description {
+    margin-top: 0;
+    font-size: 25px;
+    text-align: justify;
+}
+.aboutSec {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    right: 20%;
+}
+.skillsSec {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    right: 10%;
+}
+.projectsSec {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    left: 7%;
+}
+.contactSec {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    left: 20%;
+}
+.habilidadeTtl {
+    font-size: 40px;
+}
+.habilidadeDesc {
+    font-size: 20px;
+    text-align: justify;
+}
+.habilidadeTopic {
+    list-style-type: square;
+}
+.projectTtl {
+    font-size: 40px;
+    text-align: center;
+}
+.contactTtl {
+    font-size: 40px;
+    text-align: justify;
+}
+.contactDesc {
+    font-size: 20px;
+    text-align: justify;
+    list-style-type: upper-roman;
+}
